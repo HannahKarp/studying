@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.852
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.181
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01Task", "01Task\01Task.csproj", "{D219FECB-1754-4FF1-B24C-9CB252CBE7B0}"
 EndProject
@@ -20,6 +20,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08Task", "08Task\08Task.csproj", "{0101AF39-AC1B-4038-88FC-DB6E42A04587}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "primeNumbers", "primeNumbers\primeNumbers.csproj", "{78C68E59-8335-44E8-BF4A-D6A40860E6DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factorial", "Factorial\Factorial.csproj", "{588FD7C7-E805-4D8D-A5E0-01EBD85E42C5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{78C68E59-8335-44E8-BF4A-D6A40860E6DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78C68E59-8335-44E8-BF4A-D6A40860E6DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78C68E59-8335-44E8-BF4A-D6A40860E6DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{588FD7C7-E805-4D8D-A5E0-01EBD85E42C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{588FD7C7-E805-4D8D-A5E0-01EBD85E42C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{588FD7C7-E805-4D8D-A5E0-01EBD85E42C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{588FD7C7-E805-4D8D-A5E0-01EBD85E42C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

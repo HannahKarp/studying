@@ -21,7 +21,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08Task", "08Task\08Task.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "primeNumbers", "primeNumbers\primeNumbers.csproj", "{78C68E59-8335-44E8-BF4A-D6A40860E6DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factorial", "Factorial\Factorial.csproj", "{588FD7C7-E805-4D8D-A5E0-01EBD85E42C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factorial", "Factorial\Factorial.csproj", "{588FD7C7-E805-4D8D-A5E0-01EBD85E42C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvenNumbers", "EvenNumbers\EvenNumbers.csproj", "{70ADCC62-F404-4A07-A08A-E8166CFDE21C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{588FD7C7-E805-4D8D-A5E0-01EBD85E42C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{588FD7C7-E805-4D8D-A5E0-01EBD85E42C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{588FD7C7-E805-4D8D-A5E0-01EBD85E42C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70ADCC62-F404-4A07-A08A-E8166CFDE21C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70ADCC62-F404-4A07-A08A-E8166CFDE21C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70ADCC62-F404-4A07-A08A-E8166CFDE21C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70ADCC62-F404-4A07-A08A-E8166CFDE21C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

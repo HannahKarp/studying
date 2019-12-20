@@ -25,6 +25,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factorial", "Factorial\Fact
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvenNumbers", "EvenNumbers\EvenNumbers.csproj", "{70ADCC62-F404-4A07-A08A-E8166CFDE21C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumOfNumbers", "SumOfNumbers\SumOfNumbers.csproj", "{6BBA24A5-B119-4634-9926-DD01D8B9001A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{70ADCC62-F404-4A07-A08A-E8166CFDE21C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70ADCC62-F404-4A07-A08A-E8166CFDE21C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70ADCC62-F404-4A07-A08A-E8166CFDE21C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BBA24A5-B119-4634-9926-DD01D8B9001A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BBA24A5-B119-4634-9926-DD01D8B9001A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BBA24A5-B119-4634-9926-DD01D8B9001A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BBA24A5-B119-4634-9926-DD01D8B9001A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

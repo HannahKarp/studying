@@ -1,10 +1,10 @@
 ﻿using System;
 
-namespace EvenNumbers
+namespace EvenOddNumbers
 {
     class Program
     {
-        public static int EvenNumbers(int input)
+        public static int EvenOddNumbers(int input)
         {
             int number = 1;
             if (number > 0)
@@ -24,7 +24,7 @@ namespace EvenNumbers
             int number;
             Console.Write("specified number = ");
             number = Convert.ToInt32(Console.ReadLine());
-            number = EvenNumbers(number);
+            number = EvenOddNumbers(number);
             Console.WriteLine(number);
             Console.ReadLine();
         }

@@ -4,10 +4,10 @@ namespace Factorial
 {
     class Program
     {
-        public static int Factorial(int input)
+        public static int Factorial(int number)
         {
             int factorial = 1;
-            for (int i = 1; i < input; i++)
+            for (int i = 1; i < number; i++)
             {
                 factorial = (i + 1) * factorial;
             }

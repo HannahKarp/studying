@@ -4,28 +4,45 @@ namespace EvenOddNumbers
 {
     class Program
     {
-        public static int EvenOddNumbers(int input)
+        public static bool IsEven(int number)
         {
-            int number = 1;
-            if (number > 0)
-                for (int i = 1; i <= input; i++)
-                {
-                    if (i % 2 == 0)
-                        Console.WriteLine($"even numbers = " + i);
-                    else
-                        Console.WriteLine($"odd numbers = " + i);
-                }
-            else
-                Console.WriteLine("specified number < = 1");
-            return number;
+            if (number % 2 == 0)
+            {
+                return true;
+            }
+
+            return false;
         }
+        public static void PrintEvenOddNumbers(int maxNumber)
+        {
+            if (maxNumber > 0)
+            {
+                for (int i = 1; i <= maxNumber; i++)
+                {
+                    bool isEven = IsEven(i);
+
+                    if (isEven)
+                    {
+                        Console.WriteLine(i + " even");
+                    }
+                    else
+                    {
+                        Console.WriteLine(i + " odd");
+                    }
+                }
+            }
+            else
+            {
+                Console.WriteLine("specified number < = 1");
+            }
+        }
+
         static void Main(string[] args)
         {
             int number;
             Console.Write("specified number = ");
             number = Convert.ToInt32(Console.ReadLine());
-            number = EvenOddNumbers(number);
-            Console.WriteLine(number);
+             PrintEvenOddNumbers(number);
             Console.ReadLine();
         }
     }

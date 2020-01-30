@@ -40,26 +40,29 @@ namespace _2Darray01
                 {
                     rowSum += mas2[i, j];
                 }
-                if (rowSum > MaxrowSum) MaxrowSum = rowSum;  
+                if (rowSum > MaxrowSum) 
+                {
+                    MaxrowSum = rowSum;
+                }
             }
 
             int MincolmSum = 0;
 
             for (int i = 0; i < m; i++)
             {
-                int colmSum = mas2[0, i];
+                int colmSum = 0; // mas2[0, i];
                 //int columnSum = mas2[0, i]; //0;      
                 for (int j = 1; j < n; j++)
                 {
-                    if (mas2[j, i] < colmSum)
+                    colmSum += mas2[j, i];
+                    if (colmSum > MincolmSum)
                     {
-                        colmSum = mas2[j, i];
-                        colmSum = MincolmSum;
+                        MincolmSum = colmSum;
                     }
                 }
-               
             }
-            Console.WriteLine("Max rom sum = "+ MaxrowSum);
+
+            Console.WriteLine("Max rom sum = " + MaxrowSum);
             Console.WriteLine("Min column sum = " + MincolmSum);
             Console.ReadLine();
         }
